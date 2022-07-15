@@ -80,6 +80,12 @@ Available Options:
   Set to "yes" if you want the Header of the "original" Two-Color Pictures to be inverted.  
   Useful if you run an One-Color Display. "no" is default.  
   This Option inverts the first 16 lines.  
+  
+* Option `SHOW_TEMP`  
+  Set to "yes" if you want the temperature sensor (AD7414) readout to be shown on the OLED.  
+  The AD7414 sensor can be soldered on the RTC 1.3 board.
+  You can set the place where the temperature to be shown on the OLED using SHOW_TEMP_ROW and SHOW_TEMP_COL
+  Also you can set the refresh rate of the temperature readout via SHOW_TEMP_INTERVAL in seconds.
 
 If you need to change the Display i2c Address add the following Option
 * Option `oledid`  
